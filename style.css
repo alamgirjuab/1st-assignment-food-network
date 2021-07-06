@@ -14,7 +14,6 @@ body{
     
 }
 .top-bar{
-    /*margin-left: 5%;*/
     background-color: blueviolet;
 }
 .nav-bar{
@@ -48,7 +47,6 @@ ul li a:hover{
 }
 .half-box{
     width: 50%;
-    /*border: 1px solid;*/
     margin-left: 5%;
     padding: 2%;
     
@@ -90,7 +88,6 @@ ul li a:hover{
 }
 .recipy{
     width: 20%;
-    /*border: 1px solid;*/
     border-radius: 10px;
     margin-left: 5%;
     padding-top: 20px;
@@ -113,14 +110,12 @@ ul li a:hover{
     display: flex;
     box-shadow: 10px 10px 30px gray;
     width: 63%;
-    margin: 50px 15%;
+    margin: 150px 15%;
     border-radius: 20px;
 }
 .bottom-box{
-    /*border: 1px solid;*/
     margin-left: 15%;
     padding: 1%;
-    
 }
 footer{
     text-align: center;
