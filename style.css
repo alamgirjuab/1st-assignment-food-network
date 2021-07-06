@@ -5,12 +5,16 @@ body{
 .display-flex{
     display: flex;
 }
+.logo{
+    margin-left: 5%;
+}
 .logo img{
     width: 100px;
     height: 100px;
+    
 }
 .top-bar{
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     background-color: blueviolet;
 }
 .nav-bar{
@@ -31,6 +35,11 @@ ul li a{
     color: white;
     font-weight: 700;
 }
+ul li a:hover{
+    border: 1px solid red;
+    background-image: linear-gradient(to right, black, orange);
+    
+}
 /*
 .border{
     border: 1px solid;
@@ -46,6 +55,7 @@ ul li a{
     padding: 2%;
     
 }
+
 .half-box img{
     width: 60%;
 }
@@ -59,7 +69,7 @@ ul li a{
     box-shadow: 10px 10px 20px purple;
 }
 .half-box h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .half-box p{
     font-size: 20px;
@@ -72,30 +82,39 @@ ul li a{
 .my-recipies{
     margin: 0px 30%;
 }
-.my-recipies h1,p{
+.my-recipies {
     text-align: center;
+    padding: 50px 20px;
+}
+.recipy-box{
+    margin-left: 10%;
 }
 .recipy{
     width: 20%;
     /*border: 1px solid;*/
     border-radius: 10px;
-    margin-left: 10%;
+    margin-left: 5%;
     padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 10px 10px 30px gray;
 }
 .recipy-box h1,p{
     display: block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .recipy img{
     display: block;
     width: 90%;
+    height: 60%;
     margin:auto;
+    border-radius: 10px;
 }
 .bottom{
     display: flex;
     box-shadow: 10px 10px 30px gray;
-    width: 80%;
-    margin: 50px 10%;
+    width: 63%;
+    margin: 50px 15%;
     border-radius: 20px;
 }
 .bottom-box{
