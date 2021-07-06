@@ -40,11 +40,9 @@ ul li a:hover{
     background-image: linear-gradient(to right, black, orange);
     
 }
-/*
-.border{
-    border: 1px solid;
+.text{
+    margin-top: 80px;
 }
-*/
 .color-magenta{
     color: magenta;
 }
@@ -78,6 +76,7 @@ ul li a:hover{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 770px;
 }
 .my-recipies{
     margin: 0px 30%;
@@ -128,4 +127,5 @@ footer{
     color: white;
     background-color: black;
     padding: 2%;
+    height: 200px;
 }
