@@ -14,7 +14,20 @@
 </head>
 
 <body>
-    <div class="display-flex">
+    <div class="top-bar display-flex">
+        <div class="logo border">
+            <img src="images/favicon.png" alt="logo">
+        </div>
+        <div class="nav-bar border">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipy">Recipies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="display-flex" id="home">
         <div class="half-box">
             <h1><span class="color-magenta">Eat</span> Healthy, Think Healthy</h1>
             <p>Balanced diet and regular exercise makes me fit and healthy without any special dieting course.</p>
@@ -24,7 +37,7 @@
             <img src="images/female/Group 8425.png" alt="eating image">
         </div>
     </div>
-    <div class="about-me display-flex">
+    <div class="about-me display-flex" id="about">
         <div class="half-box">
             <img src="images/female/Person Image.png" alt="person image">
         </div>
@@ -37,7 +50,7 @@
             <a class="btn" href="#">Contact us</a>
         </div>
     </div>
-    <div class="my-recipies">
+    <div class="my-recipies" id="recipy">
         <h1>Our Recipies</h1>
         <p>Everything we serve is consciously and sustainably sourced from the beef in our burgers to the ice cream in
             our shakes.</p>
@@ -61,7 +74,7 @@
 
     </div>
 
-    <div class="bottom">
+    <div class="bottom" id="contact">
         <div class="bottom-box">
             <h1>700k</h1>
             <p>Youtube Sebscribers</p>
