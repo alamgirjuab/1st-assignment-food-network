@@ -2,6 +2,61 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.display-flex{
+    display: flex;
+}
 .color-magenta{
     color: magenta;
+}
+.half-box{
+    width: 50%;
+    border: 1px solid;
+    margin-left: 5%;
+    padding: 2%;
+    
+}
+.half-box img{
+    width: 60%;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, magenta, purple);
+    color: white;
+    font-weight: 700;
+    box-shadow: 10px 10px 20px purple;
+}
+.half-box h1{
+    font-size: 40px;
+}
+.half-box p{
+    font-size: 20px;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-recipies{
+    margin: 0px 30%;
+}
+.my-recipies h1,p{
+    text-align: center;
+}
+.recipy{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding-top: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipy-box h1,p{
+    display: block;
+}
+.recipy img{
+    display: block;
+    width: 90%;
+    margin:auto;
 }
